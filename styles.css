@@ -1,0 +1,52 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+@keyframes shoutOut {
+  0%   { transform: translateX(-50%) scale(0.5) rotate(0deg); opacity: 0; }
+  50%  { transform: translateX(-50%) scale(1.2) rotate(10deg); opacity: 1; }
+  100% { transform: translateX(-50%) scale(1) rotate(0deg); opacity: 0; }
+}
+
+#celebration.animate {
+  animation: shoutOut 1s ease;
+}
+
