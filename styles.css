@@ -39,3 +39,14 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+@keyframes shoutOut {
+  0%   { transform: translateX(-50%) scale(0.5) rotate(0deg); opacity: 0; }
+  50%  { transform: translateX(-50%) scale(1.2) rotate(10deg); opacity: 1; }
+  100% { transform: translateX(-50%) scale(1) rotate(0deg); opacity: 0; }
+}
+
+#celebration.animate {
+  animation: shoutOut 1s ease;
+}
+
